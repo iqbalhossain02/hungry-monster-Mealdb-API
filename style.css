@@ -1,0 +1,53 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    padding: 15px;
+}
+.menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.menu ul li{
+    list-style: none;
+    padding:10px;
+}
+.menu ul li a{
+    text-decoration: none;
+}
+.menu ul li a:hover{
+    text-decoration: underline;
+}
+
+.input-field{
+    position: relative;
+    text-align: center;
+    
+}
+.input-field i{
+    position: absolute;
+    left: 235px;
+    top:25px;
+    
+
+}
+input[type=text]{  
+            width: 60%;  
+            padding: 12px 40px;  
+            margin: 8px 0;  
+            display: inline-block;  
+            border: 1px solid #ccc;  
+            box-sizing: border-box;  
+        } 
+.search-btn{
+    padding:11px;
+}
+
