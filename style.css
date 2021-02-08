@@ -50,4 +50,41 @@ input[type=text]{
 .search-btn{
     padding:11px;
 }
+#food-container{
+    position: relative;
+    background: rgb(141, 137, 137);
+    height: 100vh;
+    
+}
+.sing-food-item {
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.sing-food-item img{
+    width: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.sing-food-item h3{
+    text-align: center;
+    color: #fff;
+    background-color: rgb(78, 70, 70);
+    padding: 10px;
+}
+.food-details img{
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 6px 8px 16px #000;
+}
+.food-details h2{
+    margin-top: 8px;
+    color: rgb(46, 81, 156);
+    font-weight: 800;
+    font-style: italic;
+}
 
+.food-details .img-h2{
+    text-align: center;
+}
